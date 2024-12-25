@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  /* Estilo para o cabeçalho */
+.header {
+    width: 100%; /* O cabeçalho ocupa 100% da largura da tela */
+    position: relative; /* Permite posicionamento relativo de elementos filhos */
+    background-color: #333; /* (Opcional) Cor de fundo do cabeçalho */
+  }
+  
+  /* Estilo da barra de navegação */
+  .navbar {
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Espaçamento interno para o texto e links */
+  }
+  
+  /* Estilo da imagem */
+  .logo {
+    width: 100%; /* Faz a imagem ocupar 100% da largura da tela */
+    height: auto; /* Ajusta automaticamente a altura proporcionalmente */
+    display: block; /* Remove possíveis espaçamentos extras */
+    object-fit: cover; /* Garante que a imagem se ajuste ao espaço */
+  }
+  
+  /* Estilo da div de texto */
+  .cepomena {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */;
+    margin-top: 15px; /* Espaço entre a imagem e o texto */
+    margin-bottom: 20px; /* Espaço entre o texto e os links */
+  }
+  
+  /* Estilo dos links de navegação */
+  .nav-links {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Exibe os links em linha */
+    gap: 15px; /* Espaçamento entre os links */
+    padding: 0; /* Remove padding padrão */
+    margin: 0; /* Remove margem padrão */
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    color: #007bff; /* Cor do texto */
+    transition: color 0.3s; /* Transição para hover */
+  }
+  
+  .nav-links a:hover {
+    color: #0056b3; /* Cor ao passar o mouse */
+  }
+  
+  .section {
+    background-color: #333;
+  }
+  .section h1 {
+    text-align: center;
+  }
+
+  .section p {
+    text-align: center;
+  }
